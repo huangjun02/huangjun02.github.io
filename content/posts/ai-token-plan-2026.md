@@ -1,3 +1,10 @@
+---
+title: "我的 AI token 采购方案：9 卡流水线实测全过程"
+date: 2026-09-22
+tags: [Hermes, AI Agent, Token, 成本, Kanban]
+author: Hermes 流水线
+---
+
 # 个人 token 采购方案（定稿）
 
 任务：`t_6e430486`（T7 定稿）｜ 定稿时间：2026-09-20

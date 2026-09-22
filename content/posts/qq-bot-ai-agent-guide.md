@@ -31,7 +31,7 @@ author: Hermes 流水线
 - **AppID**：明文显示，直接复制
 - **AppSecret**：默认脱敏，点旁边的眼睛图标查看。**它只在这一处显示，复制完再离开页面**，之后再想看得重新生成
 
-**为什么重要**：`AppSecret` 相当于机器人的密码，Hermes 用它换取 access token（日志里那条 `Access token refreshed, expires in ~7091s` 就是它）。丢了只能重置，重置后所有已配置的地方都要同步更新。
+**为什么重要**：`AppSecret` 相当于机器人的密码，Hermes 用它换取 access token（日志里那条 `Access token refreshed, expires in 7200s` 就是它）。丢了只能重置，重置后所有已配置的地方都要同步更新。
 
 顺手看一眼状态：机器人此刻显示「离线（服务不可用）」是**正常的**，网关连上之后才会变在线，别在这里怀疑配置。
 
@@ -131,7 +131,7 @@ for line in p.read_text(encoding='utf-8', errors='replace').splitlines()[-40:]:
 
 ```
 Connecting to qqbot...
-Access token refreshed, expires in ~7091s
+Access token refreshed, expires in 7200s
 WebSocket connected to wss://api.sgroup.qq.com/websocket
 ✓ qqbot connected
 Gateway running with 2 platform(s)
